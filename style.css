@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+    
+    
+}
+
+.listArea{
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#inputToDo{
+    height: 2.5rem;
+    width: 70%;
+    
+}
+
+#buttonToDo{
+    float: right;
+    width: 30%;
+    height: 2.5rem;
+    padding: 10px;
+    background: rgba(20, 225, 20, 0.75);
+    color: white;
+    cursor: pointer;
+    
+}
+
+.paragraph{
+    background-color: rgba(255,255, 255,0.75);
+    font-size: 1.5rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.btnTrash{
+    border: none;
+    background: rgba(230, 90, 20, 0.9);
+    color: white;
+    float: right;
+    height: 2rem;
+    width: 20%;
+    word-wrap: break-word;
+}
+
+.btnTrash:hover{
+    cursor: pointer;
+}
+
+@media (max-width:900px){
+    .listArea{
+        width: 50%;
+    }
+}
